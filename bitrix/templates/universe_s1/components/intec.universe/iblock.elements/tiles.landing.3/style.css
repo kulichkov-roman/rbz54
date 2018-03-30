@@ -1,0 +1,58 @@
+.carusel-products {
+    position:relative;
+    text-align:left;
+}
+.carusel-products .view-item {
+    border:1px solid #f6f6f6;
+    margin-bottom:25px;
+    position: relative;
+    text-align:left;
+    border-radius: 2px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+.carusel-products .view-item:hover {
+    box-shadow: 0px 3px 40px rgba(0,0,0,0.15);
+}
+.carusel-products .left_block {
+    float:left;
+    width: 30%;
+    text-align:center;
+    padding-top: 30%;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:top;
+}
+.carusel-products .right_block {
+    float: right;
+    width: 63%;
+    overflow: hidden;
+    margin-top: -5px;
+}
+.carusel-products a.name {
+    text-decoration: none;
+    color:#2b2828;
+    font-size: 13px;
+    display: block;
+    padding-bottom: 5px;
+    margin-top: 6px;
+    height:35px;
+    overflow:hidden;
+}
+.carusel-products .price {
+    font-weight:bold;
+    font-size:18px;
+    height:25px;
+    overflow: hidden;
+    margin-top:10px;
+    white-space: nowrap;
+}
+.carusel-products.owl-theme .owl-dots .owl-dot.active span,
+.carusel-products.owl-theme .owl-dots .owl-dot:hover span {
+    background: #2850db;
+    border: 0;
+}
+.carusel-products.owl-theme .owl-dots .owl-dot span {
+    background: #ffffff;
+    border: 1px solid #bababa;
+}

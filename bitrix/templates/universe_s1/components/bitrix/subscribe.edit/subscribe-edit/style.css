@@ -1,0 +1,201 @@
+body{
+    font-weight: 400 !important;
+}
+.subscribe-block{
+    user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    width: 100%;
+
+    padding: 20px;
+    border: 1px solid #EBEBEB;
+}
+.subscribe-block h2{
+    text-align: center;
+}
+.subscribe-block .email-block-subscribe{
+    display: flex;
+    flex-direction: row;
+}
+
+.subscribe-block .email-block-subscribe .subscribe-info{
+    width: 100%;
+    display: inline-block;
+    padding: 28px 0 0;
+}
+
+.subscribe-block .email-block-subscribe .subscribe-info .subscribe-info-text{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    width: 90%;
+}
+.subscribe-block .email-block-subscribe .subscribe-info:before{
+    display: inline-block;
+    content: '!';
+    vertical-align: middle;
+    font-size: 27px;
+    font-weight: bold;
+    color:     #138eee;
+    background: #fff;
+    padding: 0 12px;
+
+    border-radius: 15px;
+    margin-bottom: 3px;
+    height: 30px;
+}
+
+
+.subscribe-block .subscribe-form{
+    margin-top: 35px;
+}
+.subscribe-block .subscribe-form .form-group label{
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.subscribe-block .subscribe-form .required label:after{
+    content: '*';
+    color: #FF0000;
+    padding-left: 5px;
+}
+.subscribe-block .subscribe-form .form-group input{
+    width: 100%;
+}
+.subscribe-block .subscribe-form a{
+    color: #116afc;
+    text-decoration: none;
+    cursor: pointer;
+}
+.subscribe-block .subscribe-form .checkbox{
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.subscribe-block .subscribe-form .checkbox label{
+    padding-left: 5px;
+}
+.subscribe-block .subscribe-form .checkbox input[type=checkbox]{
+    color: #116afc !important;
+}
+.subscribe-block .subscribe-form .input-submit{
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.subscribe-block .subscribe-form .form-group .form-control-local{
+    border-radius: 2px;
+    border: 1px solid #E6E6E6;
+    height: 40px ;
+}
+
+
+/*CHECKBOX*/
+
+.checkbox {
+    display: inline;
+    position:relative;
+    padding-left:25px;
+    padding-top: 5px;
+}
+.checkbox input[type=checkbox] {
+    display:none;
+}
+
+.checkbox label:after {
+    content:'';
+    display: block;
+    height: 15px;
+    width: 15px;
+    border: 1px solid #E6E6E6;
+    margin-top: 5px;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.subscribe-block .checkbox input[type=checkbox]:checked + label:after {
+    outline:1px solid #E6E6E6;
+    border:none;
+    width:15px;
+    height:15px;
+    background-color: #138eee;
+    background-clip: content-box;
+    padding: 2px;
+}
+.radio label{
+    padding-left: 10px !important;
+    margin-left: 10px !important;
+}
+
+.subscribe-button-radio .text-radio-subscribe{
+    display: inline;
+}
+.subscribe-button-radio{
+    margin-right: 29px;
+}
+.subscribe-block .subscribe-form .form-group .subscribe-button-radio input{
+    width: auto;
+}
+.subscribe-margin-block{
+    display: flex;
+    margin-top: 35px;
+}
+
+ .radio-block input[type="radio"]{
+    display:none;
+}
+ .radio-block label {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding-left: 25px;
+    margin-right: 15px;
+    font-size: 13px;
+}
+ .radio-block label:before {
+    content: "";
+    display: inline-block;
+
+    width: 16px;
+    height: 16px;
+
+    margin-right: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    background: #fff;
+     border: 1px solid #999;
+     border-radius: 8px;
+}
+
+.radio-block input[type=radio]:checked + label:before {
+    display: block;
+    height: 16px;
+    width: 16px;
+    background: #999;
+}
+.radio-block{
+    display: block;
+}
+.radio-block span {
+    display: inline;
+    margin-top: 20px;
+}
+
+.radio{
+    display: block;
+}
+.radio:after{
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.radio input{
+    display: inline-block;
+    vertical-align: middle;
+}
+.radio label{
+    display: inline-block;
+    vertical-align: middle;
+}
+

@@ -39,4 +39,5 @@
 /bitrix/updates
 /bitrix/wizards/bitrix
 /yt/
+/se/
 /local/php_interface/config/*_override.php
