@@ -4,6 +4,8 @@ use intec\core\helpers\ArrayHelper;
 use intec\core\helpers\JavaScript;
 use intec\core\helpers\Type;
 
+$configuration = \Bitrix\Main\Config\Configuration::getInstance();
+
 /**
  * @var array $arParams
  * @var array $arResult
@@ -31,6 +33,9 @@ if (!Type::isArray($arPhones))
     $arPhones = [];
 
 $sPhone = ArrayHelper::getFirstValue($arParams['PHONE']);
+
+$sPhone = $configuration->get('phoneNumber');
+
 $bPhoneDisplay =
     $arParams['PHONE_DISPLAY'] == 'Y' &&
     $arParams['PHONE_DISPLAY_IN'] == 'header' &&
