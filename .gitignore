@@ -6,6 +6,7 @@
 /robots.txt
 /sitemap*.xml
 /upload
+/upload/*
 /bitrix/.settings.php
 /bitrix/.settings-extra.php
 /bitrix/activities/bitrix
